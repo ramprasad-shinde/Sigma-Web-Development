@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for MCA Admission</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(219, 187, 146);
+        }
+        h1{
+            text-align: center;
+        }
+        .username{
+
+            color: aqua;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Enter a Details</h1>
+    <div class="username">
+        <div>
+            <input type="text" placeholder="Enter a Username">
+             <br>
+            <input type="password" placeholder="Enter a Password">
+        </div>
+    </div>
+
+    <input type="radio" id="Male" name="gender" value="Male" >
+    <label for="Male">Male</label>
+    <input type="radio" id="Female" name="gender" value="Female">
+    <label for="Female">Female</label>
+
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <br>
+    <label for="subscribe">subscribe</label>
+    <br>
+
+    <form action="/submit">
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+        <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

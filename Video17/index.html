@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+</head>
+<style>
+    /* Elementory selector */
+    div {
+        /* background-color: red; */
+    }
+
+    /* Class selector */
+    .red {
+        background-color: red;
+    }
+
+    /* ID selector */
+    #green {
+        background-color: green;
+    }
+
+    /* Child selector */
+    div>p {
+        color: rgb(198, 29, 57);
+        background-color: burlywood;
+    }
+
+    /* decending selector */
+    div p {
+        color: rgb(198, 29, 57);
+        background-color: burlywood;
+    }
+
+    /* Universal Selector */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Pseudo selector */
+    a:visited {
+        color: brown;
+    }
+
+    a:link {
+        color: green;
+    }
+
+    a:active {
+        background-color: red;
+    }
+
+    a:hover {
+        background-color: chartreuse;
+    }
+
+    p:first-child {
+        background-color: aqua;
+    }
+</style>
+
+<body>
+    <main class="one">
+        <p>I am a first</p>
+        <p>i am a second</p>
+    </main>
+
+    <div class="red">
+        this is a div
+        <article>
+            <p>I am para inside the div</p>
+        </article>
+    </div>
+    <div id="green">
+        i am another div
+    </div>
+    <a href="https://www.Google.com">Google</a>
+    <a href="https://www.Whatsapp.com">Whatsapp</a>
+</body>
+
+</html>

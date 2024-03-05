@@ -1,0 +1,12 @@
+.mem{
+    color: rgb(149, 207, 15);
+}
+.number{
+    background-color: brown;
+}
+.red{
+    background-color: rgb(222, 208, 170);
+}
+body{
+    background-color:color-mix(in lch, rgb(196, 68, 183), rgb(209, 147, 147));
+}
